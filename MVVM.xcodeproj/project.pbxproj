@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DB980672A06DFD8009DFBC6 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB980662A06DFD8009DFBC6 /* Webservice.swift */; };
+		1DB9806A2A06E006009DFBC6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB980692A06E006009DFBC6 /* Product.swift */; };
 		1DD35F332A06AF58003CFA60 /* MVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD35F322A06AF58003CFA60 /* MVVMApp.swift */; };
 		1DD35F352A06AF58003CFA60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD35F342A06AF58003CFA60 /* ContentView.swift */; };
 		1DD35F372A06AF59003CFA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD35F362A06AF59003CFA60 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DB980662A06DFD8009DFBC6 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		1DB980692A06E006009DFBC6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		1DD35F2F2A06AF58003CFA60 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD35F322A06AF58003CFA60 /* MVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMApp.swift; sourceTree = "<group>"; };
 		1DD35F342A06AF58003CFA60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DB980652A06DF8B009DFBC6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1DB980662A06DFD8009DFBC6 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1DB980682A06DFF4009DFBC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DB980692A06E006009DFBC6 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1DD35F262A06AF58003CFA60 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +71,8 @@
 		1DD35F312A06AF58003CFA60 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				1DB980682A06DFF4009DFBC6 /* Model */,
+				1DB980652A06DF8B009DFBC6 /* Services */,
 				1DD35F322A06AF58003CFA60 /* MVVMApp.swift */,
 				1DD35F342A06AF58003CFA60 /* ContentView.swift */,
 				1DD35F362A06AF59003CFA60 /* Assets.xcassets */,
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD35F352A06AF58003CFA60 /* ContentView.swift in Sources */,
+				1DB9806A2A06E006009DFBC6 /* Product.swift in Sources */,
 				1DD35F332A06AF58003CFA60 /* MVVMApp.swift in Sources */,
+				1DB980672A06DFD8009DFBC6 /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
