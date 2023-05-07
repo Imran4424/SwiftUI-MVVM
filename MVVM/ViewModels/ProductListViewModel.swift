@@ -7,7 +7,9 @@
 
 import Foundation
 
-class ProductListViewModel {
+// main queue
+@MainActor
+class ProductListViewModel: ObservableObject {
     @Published var products: [ProductViewModel] = []
     let webservice: Webservice
     
