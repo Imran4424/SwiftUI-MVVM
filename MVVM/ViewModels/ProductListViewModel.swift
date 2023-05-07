@@ -11,6 +11,7 @@ import Foundation
 @MainActor
 class ProductListViewModel: ObservableObject {
     @Published var products: [ProductViewModel] = []
+    
     let webservice: Webservice
     
     init(webservice: Webservice) {
